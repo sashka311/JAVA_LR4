@@ -16,5 +16,10 @@ public class Main {
         System.out.println("str1 = "+ str1+ " str2 = "+str2);
         System.out.println("str1 == str2 -> "+ str1.compareTo(str2));
         System.out.println("str2 == str1 -> "+ str2.compareTo(str1));
+
+        StringBuffer sb = new StringBuffer("Hello world");
+
+        sb.replace(6,7,"W");
+        System.out.println(sb);
     }
 }
